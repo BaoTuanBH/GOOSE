@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goose</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,700;1,9..40,400;1,9..40,700&family=Fraunces:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lato&family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,500&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-main">
+      <!-- Header -->
+      <div class="header">
+        <!-- header logo -->
+        <div class="header-logo">
+          <a href="index.html">
+            <img src="../img/goose logo.png" alt="" style="height: 32px" />
+          </a>
+        </div>
+        <!-- header center -->
+        <div class="header-center">
+          <a href="">TRANG CHỦ </a>
+          <a href="">KHÁM PHÁ</a>
+          <a href="#gaming">CÁC MỤC</a>
+          <div>
+            <input type="text" placeholder="Tìm kiếm" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+        <!-- header right -->
+        <div class="header-right">
+          <button href="" style="display: flex; align-items: center">
+            <img
+              style="margin-right: 12px"
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABWUlEQVR4nO2UvUrDUBiGc0cnTU6TNBlUBAdnF+/BDkU3Bb0Bb0BwcHF01sHBwdkhCbGgSBobiD8VqYqC7StNMJZCpEM05+j3wDuEk+F7ct4vikIQBEEQfwGXMcgUhQQY3QCoQuNUXQmXlpiV/5XO59U00t5AvMURb3J5BZ6OrTRSCgSzKoaJAyQOgrmafALdDQ7cOmm661w+gf6RlQv0Dy1xBTpNHe9Xdj7stBmENqI1LsYNtBdUPJ80ph7+5bSB9mJNrAp5GkOyXU+XtnD4Gwd3OwY8LlCF3ImEK3qhwOhMuB1wJxK1igU6LS6+wOOBmQ88jLN8Po/OhBbwDYZBlP2R3jwbl8saLpY0vJ5lCz64duCbqrgCYTOrz8O+Ad/6GtSvs3R5y9wD5ScEensmolX9W8H7XUNcgWBGLeUdtyqB34xCAoxuAFShcaquhPvvl5ggCIIgFAn5AL6Hk8cwwLtrAAAAAElFTkSuQmCC"
+            />
+          </button>
+        </div>
+      </div>
+
+      <!-- Carousel -->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="https://ichef.bbci.co.uk/news/976/cpsprodpb/CFF9/production/_102314235_mediaitem102313443.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ROBLOX</h5>
+              <p>Cộng đồng gaming nổi bật</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://img.emg-services.net/HtmlPages/HtmlPage17411/patrick-tomasso-oaqk7qqnh_c-unsplash-1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>VĂN HỌC</h5>
+              <p>Cộng đồng học tập nổi bật</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://techvccloud.mediacdn.vn/2018/11/23/js-15429579443112042672363-crop-1542957949936317424252.png"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>JAVASCRIPT</h5>
+              <p>Cộng đồng lập trình nổi bật</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- PHỔ BIẾN -->
+      <h1>PHỔ BIẾN</h1>
+      <div class="interest">
+        <div class="interest-list">
+          <div class="interest-item-big">
+            <a href="gaming.html"
+              ><label for="image" class="interest-title">GAMING</label>
+              <img
+                src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="interest-list-flex">
+            <div class="interest-item">
+              <a href=""
+                ><label for="image" class="interest-title">HỌC TẬP</label>
+                <img
+                  src="https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="interest-item">
+              <a href=""
+                ><label for="image" class="interest-title">LẬP TRÌNH</label>
+                <img
+                  src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q09ESU5HfGVufDB8fDB8fHww"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GAMING -->
+      <h1 id="gaming">GAMING</h1>
+      <div class="list">
+        <div class="list-item">
+          <a href="roblox.html"
+            ><img
+              src="https://ichef.bbci.co.uk/news/976/cpsprodpb/CFF9/production/_102314235_mediaitem102313443.jpg"
+              alt=""
+            />
+            <label for="" class="list-title">ROBLOX</label>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://store-images.s-microsoft.com/image/apps.2678.14492077886571533.a48e9a4a-99a7-44a9-9d97-9e8e72220a7c.6b98c506-61b7-4126-80b6-449f2ff0fb96?q=90&w=480&h=270"
+              alt=""
+            />
+            <label for="" class="list-title">MINECRAFT</label>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://cdn.cloudflare.steamstatic.com/steam/apps/2195250/ss_33527a88323cbb39a7c09d7d74955015343efd3f.1920x1080.jpg?t=1702408161"
+              alt=""
+            />
+            <label for="" class="list-title">FC24</label>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://cdn.oneesports.vn/cdn-data/sites/4/2022/08/valorant-lo-dien-tinh-nang-avoid-list.jpg"
+              alt=""
+            />
+            <label for="" class="list-title">VALORANT</label>
+          </a>
+        </div>
+      </div>
+      <div class="list-item-a">
+        <a href="gaming.html"> XEM THÊM </a>
+      </div>
+
+      <!-- hoc tap -->
+      <h1>HỌC TẬP</h1>
+      <div class="list">
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://img.emg-services.net/HtmlPages/HtmlPage17411/patrick-tomasso-oaqk7qqnh_c-unsplash-1.jpg"
+              alt=""
+            />
+            <label for="" class="list-title">VĂN HỌC</label>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://static.scientificamerican.com/blogs/cache/file/15E43A6F-3941-471A-BF4A81AECDC8C8AA_source.jpg?w=590&h=800&19535223-FF51-4AE3-A05064AFC6E375F5"
+              alt=""
+            />
+            <label for="" class="list-title">TOÁN HỌC</label>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Victory_in_Battle_of_Dien_Bien_Phu.jpg"
+              alt=""
+            />
+            <label for="" class="list-title">SỬ HỌC</label>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://iimtu.edu.in/blog/wp-content/uploads/2023/10/Chemistry-scaled.jpg"
+              alt=""
+            />
+            <label for="" class="list-title">HÓA HỌC</label>
+          </a>
+        </div>
+      </div>
+      <div class="list-item-a">
+        <a href=""> XEM THÊM </a>
+      </div>
+
+      <!-- lap trình -->
+      <h1>LẬP TRÌNH</h1>
+      <div class="list">
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://techvccloud.mediacdn.vn/2018/11/23/js-15429579443112042672363-crop-1542957949936317424252.png"
+              alt=""
+            />
+            <label for="" class="list-title">Javascript</label>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://m.media-amazon.com/images/I/410Z2CHLy2L._AC_UF894,1000_QL80_.jpg"
+              alt=""
+            />
+            <label for="" class="list-title">Python</label>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://funix.edu.vn/wp-content/uploads/2023/05/c-la-ngon-ngu-lap-trinh-ios-lau-doi.jpg"
+              alt=""
+            />
+            <label for="" class="list-title">C++</label>
+          </a>
+        </div>
+        <div class="list-item">
+          <a href=""
+            ><img
+              src="https://ih0.redbubble.net/image.1874336633.3187/raf,360x360,075,t,fafafa:ca443f4786.jpg"
+              alt=""
+            />
+            <label for="" class="list-title">LUA</label>
+          </a>
+        </div>
+      </div>
+      <div class="list-item-a">
+        <a href=""> XEM THÊM </a>
+      </div>
+
+      <!-- FOOTER -->
+      <div class="footer">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <a href="">
+              <img src="../img/goose logo.png" alt="" style="height: 64px" />
+            </a>
+          </div>
+          <p class="footer-left" style="color: black">
+            CỘNG ĐỒNG <label for="" style="color: #0094ff"> ẨN DANH</label>
+          </p>
+        </div>
+        <div class="footer-center">
+          <h3>TỔNG QUAN</h3>
+          <ul>
+            <li>
+              <a href="" class="footer-list"
+                >GOO<label for="" style="color: #0094ff">SE</label> là gì?</a
+              >
+            </li>
+            <li>
+              <a href="" class="footer-list">Nguồn gốc ý tưởng</a>
+            </li>
+            <li>
+              <a href="" class="footer-list">Về chúng tôi</a>
+            </li>
+            <li>
+              <a href="" class="footer-list">Chính sách sử dụng</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <h3>LIÊN HỆ</h3>
+          <ul>
+            <li>
+              <p>Liên hệ qua Email:</p>
+              <div class="header-center">
+                <input type="text" placeholder="Email" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
